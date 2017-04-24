@@ -14,49 +14,12 @@
 <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 <script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/responsiveslides.min.js"></script>
-	 <script>
-		$(function () {
-		  $("#slider1").responsiveSlides({
-			auto: true,
-			speed: 500,
-			namespace: "callbacks",
-			pager: true,
-		  });
-		});
-	  </script>
-	<!----->
-<!---- start-smoth-scrolling---->
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
- <script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-</script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-				/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-				*/
-		$().UItoTop({ easingType: 'easeOutQuart' });
-});
-</script>
-<!---End-smoth-scrolling---->
 <link rel="stylesheet" href="css/swipebox.css">
-			<script src="js/jquery.swipebox.min.js"></script> 
-			    <script type="text/javascript">
-					jQuery(function($) {
-						$(".swipebox").swipebox();
-					});
-</script>
+<script src="js/jquery.swipebox.min.js"></script>
+<script defer src="js/jquery.flexslider.js"></script>
+<script src="js/myscript.js"></script>		
 </head>
 <body>
 	<div class="header" id="home">
@@ -74,20 +37,13 @@
 						 <li><a href="#gallery" class="scroll">gallery</a></li>
 						 	<li><a href="#services" class="scroll">amenities</a></li>
 								<li><a href="#pricing" class="scroll">pricing</a></li>
-								 	<li><a href="#reviews" class="scroll">reviews</a></li>
+								 	<!-- <li><a href="#reviews" class="scroll">reviews</a></li>
 									 		
-												<li><a href="#blog" class="scroll">blog</a></li>
+												<li><a href="#blog" class="scroll">blog</a></li> -->
 							   						 <li><a href="#contact" class="scroll">contact</a></li>
 						                             </nav>
 						 </ul>
 					</div>
-					 <!--script-nav-->
-		 <script>
-		 $("span.menu").click(function(){
-		 $(".top-menu ul").slideToggle("slow" , function(){
-		 });
-		 });
-		 </script>
 			<div class="clearfix"></div>
 			</div>
 	</div>
@@ -108,41 +64,26 @@
 								</li>
 								<li>	
 									<div class="slider-info">
-										<img src="images/banner/kitchen1.jpg" class="img-responsive" alt="">
+										<img src="images/banner/dining_hall.jpg" class="img-responsive" alt="">
 										
 									</div>
 								</li>
 								<li>	
 									<div class="slider-info">
-										<img src="images/banner/kitchen2.jpg" class="img-responsive" alt="">
+										<img src="images/banner/reading_room.jpg" class="img-responsive" alt="">
 										
 									</div>
 								</li>
 								<li>	
 									<div class="slider-info">
-										<img src="images/banner/banner4.jpg" class="img-responsive" alt="">
+										<img src="images/banner/gym.jpg" class="img-responsive" alt="">
 										
 									</div>
 								</li>
 							</ul>
 						</div>
 					</section>
-						<!-- FlexSlider -->
-							  <script defer src="js/jquery.flexslider.js"></script>
-							  <script type="text/javascript">
-								$(function(){
-								  SyntaxHighlighter.all();
-								});
-								$(window).load(function(){
-								  $('.flexslider').flexslider({
-									animation: "slide",
-									start: function(slider){
-									  $('body').removeClass('loading');
-									}
-								  });
-								});
-							  </script>
-						<!-- FlexSlider -->
+						
 	<!-- slider -->
 						</div>
 						<div class="content">
@@ -175,7 +116,8 @@
 									<a class="button hvr-shutter-in-vertical" href="#">read more</a>
 									</div>
 									</div>
-									<div class="services-section" id="services">
+
+									<!-- <div class="services-section" id="services">
 										<div class="container">
 											<h3>our <span>services</span></h3>
 											<div class="services-grids">
@@ -247,31 +189,31 @@
 							
 								</div>
 							</div>
-						</div>
+						</div> -->
 						<div class="gallery-section" id="gallery">
 								<h3>Gall<span>ery</span></h3>
 								<div class="gallery-grids">
 							<div class="col-md-2 gallery-grid">
 								<div class="gallery-grid1">
-									<a href="images/img1.jpg" class="swipebox"><img src="images/img1.jpg"/></a>
+									<a href="images/gallery/dining_hall.jpg" class="swipebox"><img src="images/gallery/dining_hall.jpg"/></a>
 							</div>
 							<div class="gallery-grid1">
-									<a href="images/img2.jpg" class="swipebox"><img src="images/img2.jpg"/></a>
+									<a href="images/gallery/reading_room.jpg" class="swipebox"><img src="images/gallery/reading_room.jpg"/></a>
 							</div>
 							<div class="gallery-grid1">
-									<a href="images/img3.jpg" class="swipebox"><img src="images/img3.jpg"/></a>
+									<a href="images/gallery/kitchen.jpg" class="swipebox"><img src="images/gallery/kitchen.jpg"/></a>
 							</div>
 						</div>
 						<div class="col-md-5 gallery-grid10">
 							<div class="gallery-grid01">
-									<a href="images/img5.jpg"class="swipebox"><img src="images/img5.jpg"/></a>
+									<a href="images/gallery/luxury_room.jpg"class="swipebox"><img src="images/gallery/luxury_room.jpg"/></a>
 							</div>
 							<div class="gallery1-grid">
 							<div class="gallery-grid02 ">
-									<a href="images/img4.jpg" class="swipebox"><img src="images/img4.jpg"/></a>
+									<a href="images/gallery/3bed_room.jpg" class="swipebox"><img src="images/gallery/3bed_room.jpg"/></a>
 							</div>
 							<div class="gallery-grid03">
-									<a href="images/img7.jpg" class="swipebox"><img src="images/img7.jpg"/></a>
+									<a href="images/gallery/1bed_room.jpg" class="swipebox"><img src="images/gallery/1bed_room.jpg"/></a>
 							</div>
 							<div class="clearfix"> </div>
 							</div>
@@ -279,15 +221,15 @@
 							<div class="col-md-5 gallery-grid11">
 							<div class="gallery2-grid">
 							<div class="gallery-grid02">
-									<a href="images/img8.jpg"class="swipebox"><img src="images/img8.jpg"/></a>
+									<a href="images/gallery/dining_2.jpg"class="swipebox"><img src="images/gallery/dining_2.jpg"/></a>
 							</div>
 							<div class="gallery-grid03">
-									<a href="images/img9.jpg" class="swipebox"><img src="images/img9.jpg"/></a>
+									<a href="images/gallery/corridor.jpg" class="swipebox"><img src="images/gallery/corridor.jpg"/></a>
 							</div>
 							<div class="clearfix"> </div>
 							</div>
 							<div class="gallery-grid01">
-							<a href="images/img6.jpg"class="swipebox"><img src="images/img6.jpg"/></a>
+							<a href="images/gallery/gym.jpg"class="swipebox"><img src="images/gallery/gym.jpg"/></a>
 								</div>
 							</div>
 							<div class="clearfix"> </div>
@@ -358,8 +300,8 @@
 	</div>
 	
 	</div>
-	<!----//End-price-tables----->
-	<div class="team-section" id="reviews">
+	
+	<!-- <div class="team-section" id="reviews">
 		<h3>Revi<span>ews</span></h3>
 			<div class="slider1">	  
 	  <div class="callbacks_container">
@@ -424,7 +366,7 @@
 						<div class="clearfix"> </div>
 						</div>
 						</div>
-						</div>
+						</div> -->
 						<div class="contact-section" id="contact">
 							<div class="container">
 								<h3>contact <span>us</span></h3>
@@ -453,7 +395,8 @@
 				   								<p>Follow on: <a href="#">Facebook</a> , <a href="#">Twitter</a></p>
 				  							</div>
 				  							<div class="google-map">
-               				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3021.0814617966994!2d-73.96467908332265!3d40.782223218920294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589a018531e3%3A0xb9df1f7387a94119!2sCentral+Park!5e0!3m2!1sen!2sin!4v1420805667126"></iframe>
+               				<!-- <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAN8EMFF6D-gBUNSY1WAUU_qWTAqOXQNH8&q=Cyber+Park/@11.2562943,75.8283719,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba65b9349ed910d:0x1d7a46a5c5132d00!8m2!3d11.256289!4d75.830566"></iframe> -->
+               				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.069547740162!2d75.82837194970026!3d11.256294253192918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65b9349ed910d%3A0x1d7a46a5c5132d00!2sCyber+Park!5e0!3m2!1sen!2sin!4v1493045796995" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                			</div>
 				   						</div>
 										<div class="clearfix"> </div>
