@@ -38,7 +38,7 @@ body{
 }
 .header-top {
   padding: 1em 0;
-  background: #3FACFA;;
+  background: #f73ffa;
  }
 .logo{
 	float: left;
@@ -149,7 +149,7 @@ nav a:focus {
 }
 .about-section span {
   font-weight: 400;
-  color: #3FACFA;
+  color: #f73ffa;
 }
 .about-grids {
   margin-bottom:3em;
@@ -172,7 +172,7 @@ nav a:focus {
   font-family: 'Exo', sans-serif
 }
 .about-grid span {
-  color: #3FACFA;
+  color: #f73ffa;
     font-weight: 300;
 }
 .about-grid p {
@@ -310,7 +310,7 @@ a.button {
 }
 .gallery-section span {
   font-weight: 400;
-  color: #3FACFA;
+  color: #f73ffa;
 }
 .gallery-section {
   padding: 4em 0 0;
@@ -372,7 +372,7 @@ a.button {
 }
 .price-tables h3 span {
 	font-weight: 400;
- 	color: #3FACFA;;
+ 	color: #f73ffa;;
 }
 .price-table-grid{
 	float: left;
@@ -512,7 +512,7 @@ a.button {
 }
 .team-section span {
   font-weight: 400;
-  color: #3FACFA;
+  color: #f73ffa;
 }
 /*--- slider-css --*/
 .slider {
@@ -763,7 +763,7 @@ ul.callbacks_tabs.callbacks2_tabs {
 }
 .contact-section span {
   font-weight: 400;
-  color: #3FACFA;
+  color: #f73ffa;
 }
 .contactdetails-grid h5 span {
 	color: #fe2121
