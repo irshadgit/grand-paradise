@@ -386,6 +386,9 @@ a.button {
 .price-table-grid:nth-child(3){
 	margin-right:0;
 }
+.price-table-grid:nth-child(6){
+	margin-right:0;
+}
 .price-table-grid1{
 	background:#1D405C;
 	padding-bottom: 3em;
@@ -485,6 +488,33 @@ a.button {
 	border-radius: 7px;
 }
 .price-table-grid-head3{
+	background:#1D405C;
+}
+.price-table-grid4{
+	background:#1D405C;
+	padding-bottom: 3em;
+	border-radius: 7px;
+	margin-top: 2em
+}
+.price-table-grid-head4{
+	background:#1DB1F2;
+}
+.price-table-grid5{
+	background:#8B0000;
+	padding-bottom: 3em;
+	border-radius: 7px;
+	margin-top: 2em
+}
+.price-table-grid-head5{
+	background:#008080;
+}
+.price-table-grid6{
+	background:#008B8B;
+	padding-bottom: 3em;
+	border-radius: 7px;
+	margin-top: 2em
+}
+.price-table-grid-head6{
 	background:#1D405C;
 }
 .btn3{
